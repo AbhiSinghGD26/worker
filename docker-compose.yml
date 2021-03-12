@@ -1,0 +1,13 @@
+version: "3"
+services:
+  worker:
+    container_name: worker
+    restart: always
+    build: .
+    external_links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - "27017:27017"
