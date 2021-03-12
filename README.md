@@ -1,7 +1,7 @@
 # worker-app
 worker-app assignment: - This is a "worker" that subscribe to race simulator events
 and saved those data in a MongoDB database.
-This worker will run and subscribe default `10` requests of race simulator events,
+This worker will run and subscribe default `100` requests of race simulator events,
 but you can change `REQUEST_LIMIT` number in env config file.
 
 # Code Overview
